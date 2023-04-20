@@ -744,4 +744,21 @@ color: #404040;
 }
     /* end doctor */
 
+    /*адаптивная верстка*/
+    @media (max-width: 870px) 
+    {   
+        .body{
+        margin: 1%;
+    }
+    #header{
+    height: 80px;
+    /* width: fit-content; */
+    /* margin-right: 57px; */
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+    }
     
