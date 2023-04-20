@@ -1,0 +1,747 @@
+body {
+    font-family:  'Open Sans', sans-serif;
+    color: #1C1917;
+}
+
+.body-container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.section-subtitle {
+    color: #57534E;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Open Sans';
+}
+
+.section-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #0369A1;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Open Sans';
+}
+
+.blue {
+    background-color: #0284C7;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 248px;
+    /* justify-content: center; */
+    padding-right: 251px;
+}
+
+.button-haus, .button-klinika {
+    border: none;
+    padding: 8px 16px;
+    background-color: #0EA5E9;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    box-shadow: 2px 2px 4px #d6d3d1;
+   
+    margin-top: 23px;
+    font-family: 'Open Sans';
+}
+.button-haus {
+    margin-left: 151px;
+    margin-top: 37px;
+    font-size: 18px;
+}
+.button-klinika {
+    margin-left: 662px;
+    font-size: 20px;
+    margin-top: -8px;
+}
+.button-haus:hover, .button-klinika:hover {
+background-color:#0EA5E9;
+
+}
+
+.button-haus:active, .button-klinika:active {
+    background-color:white;
+    color:#0EA5E9;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.section {
+    margin: 0 auto;
+    padding: 100px 0 70px;
+}
+
+
+
+
+
+
+/* header  */
+
+#header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0284C7;
+}
+.header-text{
+    color: #ffff;
+    padding-left: 50px;
+}
+
+
+/* haus  */
+.haus {
+    height: 316px;
+    background: url("hero.png");
+    background-position: center top;
+    background-size: cover;
+    
+}
+.haus-title {
+    
+        font-size: 39px;
+        font-weight: bold;
+        margin-bottom: 16px;
+        max-width: 37%;
+        padding-top: 48px;
+        padding-left: 155px;
+        font-family: 'Open Sans';
+    }
+    
+
+
+.haus-text {
+    
+        font-size: 18px;
+        max-width: 37%;
+        color: #0C4A6E;
+        font-weight: 500;
+        line-height: 15px;
+        padding-left: 155px;
+        font-family: 'Open Sans';
+    }
+
+
+.Dento{
+
+width:  332.97px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+    
+    .menu {
+        display: flex;
+        align-items: inherit;
+        
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-right: 81px;
+        font-family: 'Open Sans';
+    }
+
+#menu-item1, #menu-item2,#menu-item3, #menu-item4,#menu-item5 {
+    padding: 0 10px;
+    text-indent: 10px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 10px;
+   
+}
+
+.menu-item1:hover, .menu-item2:hover, .menu-item3:hover, .menu-item4:hover, .menu-item5:hover{
+    background-color:#38bdf8;
+    padding: 7px;
+    border-radius: 5px;
+}
+.menu-item1:active, .menu-item2:active, .menu-item3:active, .menu-item4:active, .menu-item5:active{
+    background-color: #bae6fd;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* service */
+
+
+    .container_slider_css {
+        margin: 20px auto;
+        width: 358px;
+        height: 210px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+
+
+.photo_slider_css{
+    position:absolute;
+    animation:round 7s infinite;
+    opacity:0;
+    width: 100%;
+    border-radius: 10px}
+
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+/* end service */
+
+/* klinika */
+.Klinika-text {
+    font-family: 'Open Sans';
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 20px;
+    color: #171717;
+    font-size: 20px;
+    font-weight: 400;
+}
+    
+    .klinika{
+    height: 356px;
+    background: url("background-1.png");
+    background-position: center top;
+    background-size: cover;}
+    
+    .section-title-1 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 700;
+        color: #0369A1;
+        margin-bottom: 25px;
+        font-family: 'Open Sans';
+        padding-top: 25px
+    }
+    /* end klinika */
+
+    /* reviews */
+    .section-title-2 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 700;
+        color: #0369A1;
+        margin-bottom: 25px;
+        font-family: 'Open Sans';
+        padding-top: 25px;
+        margin-top: 47px;
+    }
+
+    .review-container {  
+       
+        
+        
+        width: 60%;
+        border: 2px solid #E5E5E5;
+        background-color: #FFFFFF;
+        border-radius: 20px; 
+        padding: 19px; 
+        margin: 16px auto; 
+        margin-left: 5px;
+        
+      }
+      .review-container12, .review-container34{
+        display: flex;
+        justify-content: row;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .review-container34{
+        margin-bottom: 80px;
+      }
+      .review-container img {
+        float: left;
+        margin-right: 20px;
+        margin-top: inherit;
+        width: 85px;
+        
+    }
+      @media (max-width: 450px) {
+        .review-container {
+          text-align: center;
+        }
+        .review-container img {
+          margin: auto;
+          float: none;
+          display: block;
+        }
+      }
+      .reviews-title{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    padding-bottom: 15px;
+    color: #0284C7;
+    font-weight: 600;
+      }
+
+      .reviews-text {
+        font-size: 14px;
+        font-family: 'Open Sans';
+        
+        color: #737373;
+        font-weight: 300;
+        overflow: hidden;
+    }
+    /* end reviews */
+
+     /* otdel */
+     .otdel{
+        height: 356px;
+        background: url("otdel.png");
+        background-position: center top;
+        background-size: cover;}
+
+        .section-title-3 {
+            font-size: 25px;
+            text-align: center;
+            font-weight: 700;
+            color: #0369A1;
+            margin-bottom: 25px;
+            font-family: 'Open Sans';
+            padding-top: 25px
+        }
+
+        .restangle{
+                flex-grow: 0.10;
+                border: 1px solid #0284C7;
+                border-radius: 10px;
+                padding: 20px;
+                margin: 10px;
+                width: 30%;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: white;
+            }
+        
+
+        .otdel-text  {
+            font-family: 'Open Sans';
+            color: #0369A1;
+            font-size: 18px;
+            font-weight: 300;
+            overflow: hidden;
+            margin-left: 15px;
+        }
+
+        span.bold {
+            font-weight: bold;
+          }
+        
+        .phone{
+            font-family: 'Open Sans';
+            color: #0369A1;
+            font-size: 19px;
+            font-weight: 700;
+            margin-top: 50px;
+        }
+
+        .icon{
+                color: #0284C7;
+                width: 27px;
+                height: 25px;
+        }
+
+        .restanglies{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: 40px;
+            margin-right: 40px
+        }
+
+        .icons {
+            display: flex;
+            margin: 5px 0;
+            color: #78716C;
+            font-size: 14px;
+        }
+     /* end otdel */
+
+
+     
+     /* footer1, footer2 */
+     .footer1 {
+        display: flex;
+        flex-direction: row;
+       
+        background: #F0F9FF;
+        padding-top:  30px;
+     }
+     
+
+     .denta, .facebook {
+        font-family: 'Open Sans';
+        color: #0369A1;
+        font-size: 18px;
+        font-weight: 300;
+     }
+     .denta  {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 67px;
+     }
+     
+     .fac-book {
+        font-weight: 700;
+        display: flex;
+    justify-content: flex-end;
+    padding-left: 370px;
+}
+     
+     .facebook{
+        display: flex;
+        flex-direction: columnd;
+     }
+     
+
+     .icon2{
+        color: #0284C7;
+        width: 17px;
+        height: 13px;
+     }
+     .location2{
+        display: flex;
+        align-items: baseline;
+        padding-left: 59px;
+     }
+     .footer2, .footer3 {
+        display: flex;
+        flex-direction: column;
+
+        background: #F0F9FF;
+        padding-top:  30px;
+        font-family: 'Open Sans';
+        color: #0369A1;
+        font-size: 18px;
+        font-weight: 300;
+     }
+     .footer3-text{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 73px;
+     }
+     .footer3{
+        
+        height: 50px;
+     }
+     .text-footer2 {
+        padding-left: 1px;
+     }
+     .Adresa {
+        display: flex;
+        flex-direction: row;
+
+        background: #F0F9FF;
+        padding-top:  30px;
+        font-family: 'Open Sans';
+        color: #0369A1;
+        font-size: 18px;
+        font-weight: 300;
+        padding-right: 58px;
+        justify-content: space-evenly;
+     }
+     /* end footer1, footer2 */
+
+     /* service treatment */
+     
+    
+
+
+.treatment-text {
+    
+    font-size: 20px;
+    max-width: 50%;
+    color: #0B4269;
+    font-weight: 500;
+    line-height: 15px;
+    padding-left: 155px;
+    font-family: 'Open Sans';
+    }
+    .caries-photo{
+        border-radius: 20px;
+        max-width: 268px;
+        max-height: 289px;
+        margin-left: 10px;
+
+    }
+    .caries{
+        display: flex;
+        flex-direction: row;
+    }
+    .caries-treatment{
+        padding-top: 55px;
+        padding-bottom: 88px;
+    }
+/* end ervice treatment */
+
+ /* price */
+ .comfort-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #075985;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-bottom: 7px;
+    width: 740px;
+}
+
+    .comfort1 {
+        background: #F0F9FF;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+    .comfort2 {
+        background: #E0F2FE;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+    .comfort {
+        display: flex;
+        flex-direction: column;
+        max-width: 855px;
+        align-content: flex-end;
+        flex-wrap: wrap;
+        margin-left: 47px;
+    }
+/* end price */
+
+/* specialists */
+.specialist-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #0369A1;
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Open Sans';
+    margin-top: 60px;
+    background-color: #E5E5E5;
+}
+.specialists-text{
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #737373;
+margin-bottom: 62px}
+
+.specialists {
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+    /* end specialists */
+
+
+    /* search */
+     .text {
+        height: 35px;
+        outline: none;
+        padding-left: 9px;
+        /* margin-right: 10px; */
+        color: #A3A3A3;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 44px;}
+
+        .searches, .input {
+            background: #E5E5E5;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+        }
+    
+
+
+    .search, .input {
+        border-radius: 20px;
+        /* border: 2px solid #D6D3D1; */
+        color: #A3A3A3;
+        outline: none;
+        padding-left: 0px;
+        margin-right: 13px;
+        color: #A3A3A3;
+        /* display: flex; */
+        background: #E0F2FE;
+        width: 618px;
+        height: 44px;
+        
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+    }
+    .icon7 {
+        padding-left: 34px;
+        background: url(Vector.png) no-repeat left;
+        background-size: 20px;
+        color: #A3A3A3;
+        width: 590px;
+        height: 39px;
+        border-radius: 28px;
+        border-color: #E5E5E5;
+        /* background: #E0F2FE; */
+        /* height: 35px; */
+        /* outline: none; */
+        /* padding-left: 9px; */
+        /* margin-right: 10px; */
+        color: #A3A3A3;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 44px;
+        /* display: flex; */
+        padding-left: 34px;}
+
+        input[type="text" i] {
+            padding: 1px 1px 1px 44px;
+            /* margin: 0px 0px 0px 0px; */
+        }
+       
+    /* end search */
+
+      /* doctor */
+      .doctor-img {
+        border-radius: 20px;
+        /* background: #A3A3A3; */
+        max-width: 80%;
+    }
+    .button-doctor{
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+
+    .button-doctor {
+        border: none;
+        padding: 8px 64px;
+        background-color: #FFFFFF;
+        color: #0EA5E9;
+        border-radius: 8px;
+        font-size: 12px;
+        box-shadow: 2px 2px 4px #0EA5E9;
+        font-weight: 700;
+        margin-top: 13px;
+        font-family: 'Open Sans';
+    }
+    
+    .button-doctor:hover {
+    background-color:#0EA5E9;
+    color: white;
+    
+    }
+    
+    .button-doctor:active{
+        background-color:white;
+        color:#0EA5E9;
+    }
+
+    .doctor-text {
+        color: #404040;
+        padding-top: 11px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        
+    }
+    .doctor-text-H{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+color: #404040;
+    }
+
+.otdel-doctors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:  #E5E5E5;
+    
+}
+
+.doctor {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+    align-items: center;
+    padding-bottom: 13px;
+    padding-top: 101px}
+
+.doctors, .doctors2{
+    display: flex;
+    flex-direction: row;
+}
+.doctors2 {
+    padding-bottom: 100px;
+    background: #E5E5E5;
+}
+    /* end doctor */
+
+    
