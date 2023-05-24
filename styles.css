@@ -1027,6 +1027,7 @@ color: #404040;
         max-height: 50%;
         margin-left: 10px;
         margin-right: 10px;
+        width: calc(100% - 100px);
     }
     .comfort-text{
 
