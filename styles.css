@@ -1041,4 +1041,7 @@ color: #404040;
     flex-direction: column;
 }
 
+.icon7 {
+    width: calc(100% - 3px);
+}
 }
