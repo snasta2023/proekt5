@@ -958,6 +958,9 @@ color: #404040;
                     margin: 20px 13px 20px 5px;
     
                 }
+                .klinika{
+                    height: 483px;
+                }
                     .Klinika-text {
                         margin-right: 41px; 
                         margin-left: 37px;
@@ -966,7 +969,7 @@ color: #404040;
                     }
     
                     .button-klinika {
-                        margin-left: 229px;
+                        margin-left: 37px;
                         font-size: 16px;
                         margin-top: 12px;
                     }
@@ -981,13 +984,16 @@ color: #404040;
                             display: flex;
                             flex-direction: column;}
                     .otdel {
-                                height: 830px;}
+                                height: 1110px;}
                     .restangle {
                         width: 100%;}
     
-                    
+                        .footer1 {
+                        
+                            flex-direction: column;}
                         .fac-book {
-                            padding-left: 0px;
+                            padding-left: 65px;
+                            padding-top: 11px;
                         }
                         .facebook {
                             display: flex;
@@ -997,7 +1003,7 @@ color: #404040;
                             padding-right: 31px;
                             flex-direction: column;}
                             .footer3-text {
-                                padding-right: 28px;
+                                padding-left: 78px;
                             }
 
 }
