@@ -874,3 +874,61 @@ color: #404040;
                         }
    
 }
+
+/*адаптивная верстка*/
+@media (min-width: 290px) and (max-width: 415px) 
+{   
+    .body{
+        margin: 1%;
+    }
+    #header{
+    height: 80px;
+    /* width: fit-content; */
+    /* margin-right: 57px; */
+    height: fit-content;
+    display: flex;
+   /* justify-content: flex-start;
+    flex-wrap: wrap;
+    width: fit-content;*/
+}
+.body-container {
+    max-width: 834px;
+    width: 1000%;
+    /* margin: 0 auto; */
+}
+.Dento {
+    width: 173px;
+    padding-top: 5px;
+    font-size: 36px;
+    text-align: inherit;
+    }
+    .menu {
+        font-size: 30px;
+        line-height: 40px;
+        flex-direction: column;
+       padding-right: 0px;
+        align-items: flex-start;
+    }
+    .haus-text {
+    font-size: 20px;
+    max-width: 77%;
+    line-height: 35px;
+    padding-left: 59px;
+    }
+
+    .haus {
+        height: 429px;
+        background-position: left top;
+    }
+
+    .haus-title {
+    font-size: 35px;
+    max-width: 77%;
+    padding-left: 59px
+    }
+
+    .section-title {
+        font-size: 35px;
+    }
+
+}
