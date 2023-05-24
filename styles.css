@@ -1014,7 +1014,7 @@ color: #404040;
 /*адаптивная верстка для service.html*/
 
    
-@media (min-width: 290px) and (max-width: 538px) 
+@media (min-width: 290px) and (max-width: 614px) 
 { 
     .treatment-text {
         padding-left: 18px;
