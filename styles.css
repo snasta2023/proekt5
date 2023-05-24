@@ -899,11 +899,11 @@ color: #404040;
 .Dento {
     width: 173px;
     padding-top: 5px;
-    font-size: 36px;
+    font-size: 26px;
     text-align: inherit;
     }
     .menu {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 40px;
         flex-direction: column;
        padding-right: 0px;
