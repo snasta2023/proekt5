@@ -1034,3 +1034,38 @@ color: #404040;
         width: calc(100% - 100px);
 }
 }
+
+@media (min-width: 290px) and (max-width: 538px) 
+{ 
+.doctors, .doctors2 {
+    flex-direction: column;
+}
+input[type="text" i] {
+    padding: -30px 1px 1px 44px;
+    margin: 1px 0px 0px 0px;
+}
+.icon7 {
+    padding-left: 34px;
+    background: url(Vector.png) no-repeat left;
+    background-size: 20px;
+    color: #A3A3A3;
+    /* width: 590px; */
+    /* height: 39px; */
+    border-radius: 28px;
+    border-color: #E5E5E5;
+    /* background: #E0F2FE; */
+    /* height: 35px; */
+    /* outline: none; */
+    /* padding-left: 9px; */
+    /* margin-right: 10px; */
+    color: #A3A3A3;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 44px;
+    /* display: flex; */
+    padding-left: 4px;
+    width: calc(100%-100px);
+}
+}
