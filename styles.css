@@ -897,10 +897,13 @@ color: #404040;
     /* margin: 0 auto; */
 }
 .Dento {
-    width: 173px;
+    width: 127px;
     padding-top: 5px;
     font-size: 26px;
     text-align: inherit;
+    }
+    .header-text {
+        padding-left: 0px;
     }
     .menu {
         font-size: 20px;
