@@ -1011,3 +1011,21 @@ color: #404040;
                             }
 
 }
+/*адаптивная верстка для service.html*/
+
+   
+@media (min-width: 290px) and (max-width: 415px) 
+{ 
+    .treatment-text {
+        padding-left: 18px;
+        max-width: 90%;
+    }
+    .caries {
+        flex-direction: column;
+    }
+    .caries-photo {
+        max-height: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
