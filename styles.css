@@ -917,13 +917,13 @@ color: #404040;
     }
 
     .haus {
-        height: 429px;
+        height: 511px;
         background-position: left top;
     }
 
     .haus-title {
-    font-size: 35px;
-    max-width: 77%;
+        font-size: 25px;
+        max-width: 57%;
     padding-left: 59px
     }
 
@@ -935,7 +935,7 @@ color: #404040;
         padding-left: 80px;
             }
             .button-haus {
-                margin-left: 218px;
+                margin-left: 57px;
                 margin-top: 3px;
             }
             .blue {
