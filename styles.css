@@ -1011,7 +1011,7 @@ color: #404040;
                             }
 
 }
-/*адаптивная верстка для service.html*/
+/*адаптивная верстка для doctors.html*/
 
    
 @media (min-width: 290px) and (max-width: 614px) 
@@ -1043,5 +1043,8 @@ color: #404040;
 
 .icon7 {
     width: calc(100% - 3px);
+}
+.doctor-img {
+    max-width: 60%;
 }
 }
