@@ -931,4 +931,73 @@ color: #404040;
         font-size: 35px;
     }
 
+    .fac-book {
+        padding-left: 80px;
+            }
+            .button-haus {
+                margin-left: 218px;
+                margin-top: 3px;
+            }
+            .blue {
+                padding-left: 0px;
+                padding-right: 0px; 
+                justify-content: center;
+            }
+            .Adresa {
+                padding-right: 170px;}
+            .blue-img1 {
+                    margin: 15px 0px 0px 0px;
+                }
+               .blue-img2 {
+                margin: 15px 0px 0px -44px;
+               }
+               .photo_slider_css {
+                width: 90%;
+                   }
+                   .container_slider_css {
+                    margin: 20px 13px 20px 5px;
+    
+                }
+                    .Klinika-text {
+                        margin-right: 41px; 
+                        margin-left: 37px;
+                        line-height: 14px;
+                        font-size: 16px;
+                    }
+    
+                    .button-klinika {
+                        margin-left: 229px;
+                        font-size: 16px;
+                        margin-top: 12px;
+                    }
+    
+                    .review-container12, .review-container34 {
+                        flex-direction: column;
+                    }
+                    .review-container {
+                         width: 80%;}
+    
+                    .restanglies {
+                            display: flex;
+                            flex-direction: column;}
+                    .otdel {
+                                height: 830px;}
+                    .restangle {
+                        width: 100%;}
+    
+                    
+                        .fac-book {
+                            padding-left: 0px;
+                        }
+                        .facebook {
+                            display: flex;
+                            padding-right: 45px;
+                        }
+                        .Adresa {
+                            padding-right: 31px;
+                            flex-direction: column;}
+                            .footer3-text {
+                                padding-right: 28px;
+                            }
+
 }
